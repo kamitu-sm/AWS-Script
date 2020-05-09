@@ -1,6 +1,6 @@
 #!/usr/bin/sh
 #
-# Examlple of using options in scripts
+# This is shell, its yet to be completed (When done this comment will be removed)
 #
 
 if [ $# -eq 0 ]
