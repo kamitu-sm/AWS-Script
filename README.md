@@ -40,5 +40,7 @@ Clone the Repository to your prefered location and make sure to make the script 
 For directions on how to use run 
 
 aws-script -h
+
 or
+
 ./aws-script -h
