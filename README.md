@@ -20,13 +20,17 @@ aws configure
 The format of this file will be as below and stored in (in ~/.aws/config) by default 
 
 [default]
+
 region=us-west-2
+
 output=json
 
 The credential file has to be user created from the access secret key and acess key id for the specific user. This key and key_id are obtained from the AWS web console. When obtained use them to create a file with the following format and store it on your prefered location
 
 [default]
+
 aws_access_key_id=xxxxxxxxxxxxxxxxxxxx
+
 aws_secret_access_key=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 
 Step 3: 
