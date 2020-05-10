@@ -11,31 +11,22 @@ https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-install.html
 
 Step 2: 
 
-The AWS CLI uses two files, one to store the sensitive credential information which is separated from the less sensitive configuration options file. 
-
-You can generate the configuration file by running
-
-aws configure
-
-The format of this file will be as below and stored in (in ~/.aws/config) by default 
-
-[default]
-
-region=us-west-2
-
-output=json
-
-The credential file has to be user created from the access secret key and acess key id for the specific user. This key and key_id are obtained from the AWS web console. When obtained use them to create a file with the following format and store it on your prefered location
-
-[default]
-
-aws_access_key_id=xxxxxxxxxxxxxxxxxxxx
-
-aws_secret_access_key=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+Clone the Repository to your prefered location and make sure to make the script file executable. You can also store the script in any executable PATH location.
 
 Step 3: 
 
-Clone the Repository to your prefered location and make sure to make the script file executable. You can also store the script in any executable PATH location.
+Log into you AWS web console and obtain the values for AWS ACCESS KEY ID, AWS SECRET ACCESS KEY and AWS REGION for the user to be used for running the script.
+
+Step 4: 
+
+Create a credentials file and make sure it has the three entries below in the exact shown format, substitute appropriately with the values obtained from step 3 
+
+AWS_ACCESS_KEY_ID=xxxxxxxxxxxxxxxxxx
+
+AWS_SECRET_ACCESS_KEY=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+AWS_DEFAULT_REGION=us-east-2
+
 
 For directions on how to use run 
 
