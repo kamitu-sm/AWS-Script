@@ -1,39 +1,8 @@
-#!/usr/bin/sh
+#!/bin/bash
 #
-# This is shell, its yet to be completed (When done this comment will be removed)
+# Coder is Stephen Kamitu Munguti -> kamitu.sm@gmail.com
+#
+# Be sure to have followed the instructions in the readme for the repository 
 #
 
-if [ $# -eq 0 ]
-then
-        echo "Missing options!"
-        echo "(run $0 -h for help)"
-        echo ""
-        exit 0
-fi
 
-ECHO="false"
-
-while getopts "he" OPTION; do
-        case $OPTION in
-
-                e)
-                        ECHO="true"
-                        ;;
-
-                h)
-                        echo "Usage:"
-                        echo "args.sh -h "
-                        echo "args.sh -e "
-                        echo ""
-                        echo "   -e     to execute echo \"hello world\""
-                        echo "   -h     help (this output)"
-                        exit 0
-                        ;;
-
-        esac
-done
-
-if [ $ECHO = "true" ]
-then
-        echo "Hello world";
-fi
