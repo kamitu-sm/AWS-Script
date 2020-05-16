@@ -40,7 +40,7 @@ separate_output () {
 # The actual script rememeber it requires file arguement to be sent
 run_script () {
 	# Check if output file exists if not create it and if it exists empty it
-	if [[ ! -f /Scripts/file.txt ]]
+	if [[ ! -f $FILE ]]
 	then
 		touch $FILE
 	else
