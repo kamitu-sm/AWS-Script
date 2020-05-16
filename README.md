@@ -21,17 +21,15 @@ Step 4:
 
 Create a credentials file and make sure it has the three entries below in the exact shown format, substitute appropriately with the values obtained from step 3 
 
-AWS_ACCESS_KEY_ID=xxxxxxxxxxxxxxxxxx
-
-AWS_SECRET_ACCESS_KEY=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-
-AWS_DEFAULT_REGION=us-east-2
+    AWS_ACCESS_KEY_ID=xxxxxxxxxxxxxxxxxx
+    AWS_SECRET_ACCESS_KEY=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+    AWS_DEFAULT_REGION=us-east-2
 
 
 For directions on how to use run 
 
-aws-script -h
+    aws-script.sh -h
 
 or
 
-./aws-script -h
+    ./aws-script.sh -h
